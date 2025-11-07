@@ -1,5 +1,7 @@
 # Lab-How-To-Configure-Cross-Region-Replication-for-an-S3-Bucket
 
+![alt text](Untitled.jpg)
+
 ### 1. Create an S3 bucket ###
 
 - Type `S3` in AWS Console and click

@@ -30,7 +30,7 @@ A comprehensive collection of AWS labs and projects demonstrating real-world clo
 
 ## 🏁 Getting Started
 
-Each lab are separated and includes:
+Each lab are separated and includes it owns:
 - 📋 Prerequisites and setup instructions
 - 🏗 Architecture diagrams
 - ⚡ Deployment scripts
