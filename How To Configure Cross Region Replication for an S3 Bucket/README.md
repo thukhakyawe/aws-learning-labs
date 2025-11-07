@@ -1,6 +1,6 @@
 # Lab-How-To-Configure-Cross-Region-Replication-for-an-S3-Bucket
 
-![alt text](Untitled.jpg)
+![alt text](Untitled-1.jpg)
 
 ### 1. Create an S3 bucket ###
 
