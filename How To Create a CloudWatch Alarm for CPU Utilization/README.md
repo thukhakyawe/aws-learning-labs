@@ -1,5 +1,6 @@
 ![alt text](<Adobe Express - file.png>)
 
+
 ## 1. Create EC2 for Amazon Linux
 
 ![alt text](image.png)
