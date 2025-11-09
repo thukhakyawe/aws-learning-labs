@@ -173,7 +173,7 @@ def lambda_handler(event, context):
     # --- NEW: Define your desired CSV headers (friendly names) ---
     # This is the exact order they will appear in the CSV
     friendly_headers = [
-        'Account name and ID', # Note: The API only returns ID. See notes below.
+        'Account name and ID', 
         'Region',
         'Resource ID',
         'Resource type',
@@ -187,7 +187,7 @@ def lambda_handler(event, context):
         'Current resource summary',
         'Recommended resource summary',
         'Tags',
-        'Recommendation ID' # Added this as it's a useful unique key
+        'Recommendation ID' 
     ]
     
     # --- NEW: Define the corresponding API keys in the *same order* ---
@@ -205,7 +205,7 @@ def lambda_handler(event, context):
         'estimatedSavingsPercentage',
         'currentResourceSummary',
         'recommendedResourceSummary',
-        'tags', # This one will be specially formatted
+        'tags',
         'recommendationId'
     ]
     
@@ -236,7 +236,7 @@ def lambda_handler(event, context):
                     if key == 'tags':
                         value = format_tags(value)
                     elif value is None:
-                        value = "" # Use empty string for missing values
+                        value = ""
                     
                     row_data.append(value)
                 
@@ -277,7 +277,7 @@ def lambda_handler(event, context):
             'body': f'Error: {str(e)}'
         }
     finally:
-        csv_output.close() # Close the in-memory file
+        csv_output.close()
 ```
 
 ## Step 5: Generate Report
